@@ -1,0 +1,24 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitalyBibik/webPackReact.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitalyBibik/webPackReact/issues"
+  },
+  "homepage": "https://github.com/VitalyBibik/webPackReact#readme",
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
