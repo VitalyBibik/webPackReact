@@ -25,9 +25,15 @@ module.exports = {
                 ]
             },
             {
-                test:/\.(jpg|png)$/,
+                test: /\.(jpg|png)$/,
                 use: {
                     loader: "url-loader"
+                }
+            },
+            {
+                test: /\.(woff|woff2|ttf)$/,
+                use: {
+                    loader:'url-loader',
                 }
             }
         ],
