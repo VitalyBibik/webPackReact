@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: 700;
+    src: url("./asserts/fonts/OpenSans-Regular.ttf") format("ttf");
+}
+
 .title {
     color: red;
+}
+
+
+
+html,
+body {
+    font-family: 'OpenSans', sans-serif;
 }
