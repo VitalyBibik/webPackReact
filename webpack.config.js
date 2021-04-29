@@ -9,7 +9,7 @@ module.exports = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: ['babel-loader'],
+                use: ["babel-loader", "eslint-loader"]
             },
             {
                 test: /\.css$/i,
@@ -35,7 +35,12 @@ module.exports = {
                 use: {
                     loader:'url-loader',
                 }
-            }
+            },
+            {
+                test: /\.(js)$/,
+                exclude: /node_modules/,
+                use: ["babel-loader", "eslint-loader"]
+            },
         ],
     },
     resolve: {
