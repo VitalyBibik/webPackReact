@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './style.css';
 import dog from './asserts/images/dog.jpg';
 
@@ -10,3 +11,7 @@ const App = ({ title }) => (
 );
 
 export default App;
+
+App.propTypes = {
+  title: PropTypes.string.isRequired,
+};
